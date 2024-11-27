@@ -39,6 +39,10 @@
     }
   }
 
+  &__menu {
+    display: none;
+  }
+
   &__btn {
     padding: 17px 35px;
     background-color: transparent;
@@ -50,6 +54,20 @@
     &:hover {
       background-color: #ef6d58;
       border: 1px solid #ef6d58;
+    }
+  }
+
+  @include mobile() {
+    &__menu {
+      display: block;
+    }
+
+    &__list {
+      display: none;
+    }
+
+    &__btn {
+      display: none;
     }
   }
 }
