@@ -1,0 +1,89 @@
+.help {
+  background-color: #fdf0e9;
+  padding: 92px 0 100px 0;
+
+  &__sub {
+    display: block;
+    color: #ef6d58;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    text-align: center;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 64px;
+    margin-bottom: 64px;
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__card {
+    padding: 48px;
+    transition: 0.4s ease-in-out;
+
+    &:hover {
+      transform: scale(1.1);
+      -webkit-box-shadow: 1px 6px 35px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 1px 6px 35px 0px rgba(0, 0, 0, 0.75);
+      box-shadow: 1px 6px 35px 0px rgba(0, 0, 0, 0.75);
+    }
+
+    &__title {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+
+    &__text {
+      color: #391400;
+      font-size: 24px;
+      font-weight: 700;
+    }
+  }
+
+  &__text {
+    color: #391400a3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+
+    margin-top: 28px;
+    margin-bottom: 30px;
+  }
+
+  &__span {
+    color: #391400;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  &__lorem {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  &__ques {
+    display: block;
+    text-align: center;
+    color: #391400a3;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 60px;
+  }
+
+  &__sup {
+    color: #391400;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 8px;
+  }
+}

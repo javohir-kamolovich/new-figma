@@ -4,8 +4,18 @@
   margin: auto;
 }
 
+.portfolio__container {
+  width: 1404px;
+  margin: auto;
+}
+
 @include mobile() {
   .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .portfolio__container {
     width: 100%;
     padding: 0 15px;
   }
