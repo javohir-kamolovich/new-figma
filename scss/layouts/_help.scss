@@ -86,4 +86,10 @@
     font-weight: 400;
     margin-left: 8px;
   }
+
+  @include mobile() {
+    &__wrapper {
+      flex-direction: column;
+    }
+  }
 }

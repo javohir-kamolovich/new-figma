@@ -69,4 +69,10 @@
     align-items: center;
     justify-content: space-between;
   }
+
+  @include mobile() {
+    &__wrapper {
+      flex-direction: column;
+    }
+  }
 }
