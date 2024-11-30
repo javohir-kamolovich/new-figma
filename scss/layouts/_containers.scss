@@ -4,6 +4,11 @@
   margin: auto;
 }
 
+.portfolio__container {
+  width: 1404px;
+  margin: auto;
+}
+
 @include mobile() {
   .container {
     width: 100%;
